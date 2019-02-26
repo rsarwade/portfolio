@@ -1,0 +1,30 @@
+name: Rajdatta Sarwade
+type: theme
+base theme: classy
+description: 'A flexible, responsive theme developed for portfolio.'
+package: Core
+version: 8.1.1
+core: 8.x
+regions:
+    header: Header
+    header_search: 'Header Search'
+    header_menu: 'Header Menu'
+    help: Help
+    page_top: 'Page top'
+    page_bottom: 'Page bottom'
+    highlighted: Highlighted
+    main_menu: 'Main Menu'
+    banner: banner
+    featured: Featured
+    content: Content
+    breadcrumb: Breadcrumb
+    sidebar_first: 'Sidebar first'
+    sidebar_second: 'Sidebar second'
+    footer_top: 'Footer top'
+    footer: Footer
+    footer_left: 'Footer Left'
+    footer_right: 'Footer Right'
+libraries:
+    - rajdatta_sarwade/rajdatta_sarwade-library
+
+

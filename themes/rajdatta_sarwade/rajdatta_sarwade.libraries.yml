@@ -1,0 +1,24 @@
+rajdatta_sarwade-library:
+  version: 1.1
+  css:
+    theme:
+      assets/css/media-layout-960.css: {media: all and (min-width: 980px)}
+      assets/css/media-layout-720.css: {media: all and (min-width: 760px) and (max-width: 980px)}
+      assets/css/media-layout.css: {media: all and (max-width: 760px)}
+      assets/css/flexslider.css: {}
+      assets/css/main.css: {}
+  js:
+resume-library:
+  version: 1.2
+  css:
+    theme:
+      assets/css/resume.css: {}
+  dependencies:
+    - core/jquery
+flexslider-library:
+  version: 1.2
+  css:
+    theme:
+  js:
+    assets/js/jquery.flexslider.js: {}    
+    assets/js/custom.js: {}

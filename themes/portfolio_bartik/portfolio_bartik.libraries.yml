@@ -1,0 +1,12 @@
+portfolio_bartik-library:
+  version: 1.1
+  css:
+    theme:
+      assets/css/main.css: {}
+
+  js:
+
+  dependencies:
+    - core/jquery
+
+

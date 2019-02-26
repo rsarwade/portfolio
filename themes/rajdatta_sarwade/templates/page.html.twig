@@ -1,0 +1,82 @@
+<!-- Header Start -->
+  <div id="header">
+    <div id="header-inside" class="container_12 clearfix">
+      <div id="header-inside-left" class="grid_8 {{ logopath }}">
+        <a href="/" title="Home">
+          <img src="{{ logopath }}" alt="Home">
+        </a>
+      </div>
+      <div id="header-inside-right" class="grid_4">
+          {{ page.header_search }}
+      </div>
+
+    </div>
+  </div>
+  <!-- Header End -->
+  <span id="show-header-menu"><a href="#">Menu</a></span>
+  <div id="header-menu">
+    <!-- #header-menu-inside -->
+    <div id="header-menu-inside" class="container_12 clearfix">
+      <div class="grid_12">
+        <div id="navigation" class="clearfix">
+          {{ page.header_menu }}
+        </div>
+      </div>
+    </div><!-- EOF: #header-menu-inside -->
+  </div>
+  {{ page.secondary_menu }}
+  {{ page.primary_menu }}
+  <div id="banner">
+      <!-- Views flexslider will come over here -->
+      {{ page.banner }}
+  </div>
+
+  <div id="content">
+    <div id="content-inside" class="container_12 clearfix">
+      <div id="main" class="grid_8">
+          {{ page.title }}
+          {{ page.content }}
+      </div>
+      <div id="sidebar-second" class="grid_4">
+        {{ page.sidebar_first }}
+        {{ page.sidebar_second }}
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <!-- #footer-inside -->
+      <div id="footer-inside" class="container_12 clearfix">
+          <div class="footer-area grid_4">
+          </div><!-- EOF: .footer-area -->
+
+          <div class="footer-area grid_4">
+          </div><!-- EOF: .footer-area -->
+
+          <div class="footer-area grid_4">
+          </div><!-- EOF: .footer-area -->
+
+      </div><!-- EOF: #footer-inside -->
+  </div>
+
+  <div id="footer-bottom">
+
+    <!-- #footer-bottom-inside -->
+    <div id="footer-bottom-inside" class="container_12 clearfix">
+
+      <!-- #footer-bottom-left -->
+      <div id="footer-bottom-left" class="grid_8">
+        {{ page.footer_left }}
+      </div>
+
+      <!-- #footer-bottom-right -->
+      <div id="footer-bottom-right" class="grid_4">
+          <div class="region region-footer-bottom-right">
+          </div>
+          {{ page.footer_right }}
+      </div>
+      <!-- EOF: #footer-bottom-right -->
+
+    </div><!-- EOF: #footer-bottom-inside -->
+
+</div>
