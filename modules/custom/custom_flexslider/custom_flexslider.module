@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the Custom Flexslider module.
+ */
+
+function custom_flexslider_theme($existing, $type, $theme, $path) {
+  return array('customflexslider' =>                  // this is the name of the template
+           array(
+            'variables' => array(
+                'slidercontent' => null
+            ),
+        )
+    );
+}
+
+

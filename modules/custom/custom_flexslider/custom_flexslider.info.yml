@@ -1,0 +1,8 @@
+name: Custom Flexslider Block
+description: A custom module to display content specific to content type in flexslider.
+core: 8.x
+package: Custom
+dependencies:
+- node
+- block
+type: module

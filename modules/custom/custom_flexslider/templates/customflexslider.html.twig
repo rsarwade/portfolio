@@ -1,0 +1,41 @@
+<div id="" class="block block-views">
+  <div class="content">
+    <div class="view view-projects view-id-projects view-display-id-block_3">
+      <div class="view-content">
+        <div class="flexslider">
+          <ul class="slides">
+          {% for slides in slidercontent %}
+          <li>
+          <div id="node-8" class="node-project-slideshow node node-project node-promoted">
+            <div class="content clearfix">
+              <div class="field field-name-field-project-image field-type-image field-label-hidden">
+                <div class="field-items">
+                  <div class="field-item even">
+                    <a href="">
+                      <img typeof="foaf:Image" src="{{ slides.image }}" alt="{{ slides.title }}" title="{{ slides.title }}" draggable="true">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2><a href="{{ slides.url }}">{{ slides.title }}</a></h2>
+              <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                <div class="field-items">
+                  <div class="field-item even" property="content:encoded">
+                    {{ slides.description|raw }}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="clearfix">
+                <div class="links"></div>
+              </div>
+          </div>
+          </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
